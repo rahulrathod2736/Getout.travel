@@ -1,0 +1,68 @@
+.header {
+  height: 64px;
+  background-color: #ffffff;
+  padding: 0 1rem;
+}
+
+.hamburger {
+  display: block;
+}
+
+.menu, .header-title {
+  display: none;
+}
+
+.menu-item {
+  margin: 5px 12px;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  font-size: 10px;
+  background-color: red;
+  color: #ffffff;
+}
+
+nav.mb-menu {
+	width: 200px;
+	min-height: 100%;
+	background-color: white;
+	position: absolute;
+	left: -200px;
+	transition: .3s all;
+}
+
+nav.mb-menu > span {
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+    color: #494949;
+    text-transform: capitalize;
+}
+
+.menu-show {
+	left: 0!important;
+}
+
+/* responssive web design */
+
+@media (min-width: 640px) {
+  .header {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .menu, .header-title {
+    display: block;
+  }
+}

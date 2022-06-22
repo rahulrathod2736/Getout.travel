@@ -1,0 +1,19 @@
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-screen {
+  height: 100vh;
+  background-color: #f8f8f8ff;
+  overflow: auto;
+  padding-bottom: 64px;
+}
+
+
+

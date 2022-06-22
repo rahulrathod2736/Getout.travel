@@ -1,0 +1,70 @@
+.quotes-title {
+  font-size: 0.8rem;
+  padding: 1rem 0;
+}
+
+.product-add {
+  padding: 2% 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+.product-image {
+  width: 100%;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-title {
+  display: none;
+}
+
+/* responssive web design */
+
+@media (min-width: 640px) {
+  .product-add {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-image {
+    height: 256px;
+  }
+
+  .product-title {
+    padding: 1rem 12px;
+    text-transform: capitalize;
+  }
+}
+@media (min-width: 768px) {
+  .quotes-title {
+    font-size: 1rem;
+  }
+  .product-add {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .product-add {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1280px) {
+  .product-add {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1536px) {
+  .product-add {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

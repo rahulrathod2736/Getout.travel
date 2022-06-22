@@ -1,0 +1,19 @@
+.bottom-navigation {
+  display: flex;
+  position: fixed;
+  height: 64px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* responssive web design */
+
+@media (min-width: 768px) {
+  .container-screen {
+    padding-bottom: 0px;
+  }
+  .bottom-navigation {
+    display: none;
+  }
+}
