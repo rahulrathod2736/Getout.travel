@@ -67,6 +67,10 @@
 
 ### Let's run a Project with yarn
 
+- command : ```yarn install```
+
+This command will install necessary project dependency mentioned in package.json and that's required to run project.
+
 - command : ```yarn start```
 
 After run this command hit url on browser ```http://localhost:3000```
@@ -133,6 +137,4 @@ All files                        |   89.28 |    88.88 |   91.66 |   88.88 |
 ##### This is the output of our test case. like,
 - All test case cover 89.28% codes of Whole Projects.
 - All test case cover 91.66% functions of Whole Projects.
-
-Output Images
 
